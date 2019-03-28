@@ -1,9 +1,20 @@
 
 import java.util.*;
 
+/*
+    Task:
+    Complete the migratoryBirds function below. It should return the lowest type number of the most frequently sighted bird.
+    Output:
+    Print the type number of the most common bird; if two or more types of birds are equally common, choose the type
+    with the smallest ID number.
+
+   
+
+*/
 
 public class Solution {
 
+    // arr: an array of integers representing types of birds sighted
     static int migratoryBirds(List<Integer> arr)
     {
         HashMap<Integer, Integer> map = new HashMap();
