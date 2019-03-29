@@ -30,7 +30,5 @@ class Solution
             nums2_index--;
         }
 
-
-
     }
 }
