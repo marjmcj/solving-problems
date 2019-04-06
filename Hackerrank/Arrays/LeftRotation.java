@@ -16,8 +16,6 @@ import java.util.regex.*;
 
 public class Solution
 {   
-    // We can easily do this inside of a while loop and have d x arr.length runtime complexity, and constant memory usage.
-    // However, if we want to sacrifice a little bit on the memory side  we can have a linear runtime.
     static int[] rotLeft(int[] a, int d)
     {
         int[] result = new int[a.length];
