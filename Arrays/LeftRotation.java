@@ -6,6 +6,14 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
+
+
+/*
+    A left rotation operation on an array shifts each of the array's elements d units to the left. 
+    Given an array  of  integers and a number d, perform d left rotations on the array.
+    Return the updated array to be printed as a single line of space-separated integers.
+*/
+
 public class Solution
 {   
     // We can easily do this inside of a while loop and have d x arr.length runtime complexity, and constant memory usage.
